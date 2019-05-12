@@ -99,7 +99,7 @@ parameters:
     tag: O
     type: bool
     optional: true
-    description: Optional. If leveling is already enabled then exit without leveling. (1.1.9)
+    description: Optional. If there is any stored bed level data, or if leveling is already enabled, then exit without leveling. (1.1.9)
   -
     tag: Q
     optional: true
